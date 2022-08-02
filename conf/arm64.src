@@ -1,0 +1,7 @@
+SOURCE_URL=https://hndl.urbackup.org/Server/2.4.15/urbackup-server_2.4.15_arm64.deb
+SOURCE_SUM=d5b9c302bba33341240b9ee6c0ee47f3718e61d392d42d0722e6884798c5a24a
+SOURCE_SUM_PRG=sha256sum
+SOURCE_FORMAT=deb
+SOURCE_IN_SUBDIR=false
+SOURCE_FILENAME=urbackup-server.deb
+SOURCE_EXTRACT=false

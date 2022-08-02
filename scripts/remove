@@ -78,7 +78,7 @@ fi
 ynh_script_progression --message="Purgin app..." --time --weight=1
 
 # Use apt-get
-ynh_exec_warn_less sudo apt-get purge urbackup-server
+ynh_exec_warn_less sudo apt-get purge -y urbackup-server
 
 #=================================================
 # END OF SCRIPT

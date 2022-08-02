@@ -106,8 +106,8 @@ ynh_exec_warn_less debconf-set-selections <<< "urbackup-server urbackup/backuppa
 
 dpkg --install $tempdir/urbackup-server.deb
 
-chown -R urbackupsrv:www-data "$datadir"
-chown -R urbackupsrv:www-data "$wwwpath"
+chown -R urbackup:www-data "$datadir"
+chown -R urbackup:www-data "$wwwpath"
 
 ynh_exec_warn_less ynh_secure_remove --file="$tempdir"
 

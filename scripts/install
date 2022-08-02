@@ -99,7 +99,7 @@ ynh_script_progression --message="Setting up source files..."
 
 tempdir="$(mktemp -d)"
 # Download, check integrity, uncompress and patch the source from app.src
-ynh_setup_source --dest_dir="$tempdir"
+ynh_setup_source --dest_dir="$tempdir" --source_id=$YNH_ARCH
 
 # Pre-populate the selection
 ynh_exec_warn_less debconf-set-selections <<< "urbackup-server urbackup/backuppath string $datadir"

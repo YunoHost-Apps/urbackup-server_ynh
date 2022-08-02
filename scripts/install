@@ -143,6 +143,7 @@ yunohost service add urbackupsrv --description="Server for doing backups" --log=
 ynh_script_progression --message="Configuring permissions..." --time --weight=1
 
 # Make app public if necessary
+is_public=1
 if [ $is_public -eq 1 ]
 then
 	# Everyone can access the app.
